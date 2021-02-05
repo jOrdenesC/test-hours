@@ -1,0 +1,57 @@
+<%- include ('partials/_header'); %>
+
+    <div class="row">
+        <div class="col-sm-2">
+            <div class="column">
+                <div>
+                    <% for(var i=0; i < motorcycles.length; i++){%>
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-body">
+                                    <%= motorcycles[i].name%>
+                                </div>
+                            </div>
+                        </div>
+                        <% } %>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            <div class="column">
+                <div>
+                    <% for(var i=0; i < hours.length -13; i++){%>
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-body">
+                                    <%= hours[i]%>
+                                </div>
+                            </div>
+                        </div>
+                        <% } %>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            <div class="column">
+                <div>
+                    <% for(var i=13; i < hours.length -1; i++){%>
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-body">
+                                    <%= hours[i]%>
+                                </div>
+                            </div>
+                        </div>
+                        <% } %>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <%- include ('partials/_footer'); %>
