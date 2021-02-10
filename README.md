@@ -1,30 +1,18 @@
-Sometimes you want numbered lists:
+# TEST HOURS
 
-1. One
-2. Two
-3. Three
+Testing michcom hora de motocicletas.
 
-Sometimes you want bullet points:
+### Pasos de instalación
 
-* Start a line with a star
-* Profit!
+1. create .env file
+2. npm install
+3. npm run starto
 
-Alternatively,
+### Tecnologías usadas
 
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
-  - Like this
-  - And this
-
-# Structured documents
-
-Sometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.
-
-### This is a third-tier heading
-
-You can use one `#` all the way up to `######` six for different heading sizes.
-
-If you'd like to quote someone, use the > character before the line:
-
-> Coffee. The finest organic suspension ever devised... I beat the Borg with it.
-> - Captain Janeway
+* Express
+* Node js
+* EJS
+* Morgan
+* Mongoose
+* body parser
